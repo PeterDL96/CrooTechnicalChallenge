@@ -1,3 +1,32 @@
+# Croo Technical Challenge
+
+This application open a web page where users can write and enter comments inside.
+The frontend is developed with React.js and the backend with the python librairy Flask.
+
+This application needed to follow 5 requirements given by Croo:
+
+1-Comments should be stored in a database.
+2-Comments should be displayed in real time for all users.
+3-A comment history should be displayed, and users should be able to see the comments that were left
+before they opened the app.
+4-The name of a commenter should be a mailto link to their email address.
+5-The project must be delivered via Docker. You can either use docker-compose,
+or put everything in the same container with an entrypoint script.
+No matter which option you choose, your app should be fully operational with only one terminal command.
+
+This application unfortunately doesn't respect all those objectives. The comments are stored in a database and all the comments are diplayed on the web page. But it is not displayed in real-time and it is not delivered with docker. Discovering React and Flask took a lot time to learn so entering such features as real time displaying and learning how work docker. Also, mailto link doesn't work but each name contain the email that were used to enter the comment.
+
+# How to start the app
+
+To start the app, you need to open 2 command prompt. In the first one, you need to be in tha api folder and then enter the 2 next commands:
+
+\venv\Scripts\Activate
+python ./api.py
+
+In the second command prompt, you nee to be in my-app folder and enter npm start. The app should open right after this action.
+
+It should have need only one command line to open the app but due to the lack of time this feature hasn't been developped.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
