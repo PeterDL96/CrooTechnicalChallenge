@@ -14,7 +14,7 @@ before they opened the app.
 or put everything in the same container with an entrypoint script.
 No matter which option you choose, your app should be fully operational with only one terminal command.
 
-This application unfortunately doesn't respect all those objectives. The comments are stored in a database and all the comments are diplayed on the web page. But it is not displayed in real-time and it is not delivered with docker. Discovering React and Flask took a lot time to learn so entering such features as real time displaying and learning how work docker. Also, mailto link doesn't work but each name contain the email that were used to enter the comment.
+This application unfortunately doesn't respect all those objectives. The comments are stored in a database and all the comments are diplayed on the web page. But it is not displayed in real-time and it is not delivered with docker. Discovering React and Flask took a lot time to learn so entering such features as real time displaying and learning how work docker were not in able with a delay of one week. Also, mailto link doesn't work but each name contain the email that were used to enter the comment. I used SQLlite as the database. MySQL or PostgreSQL should have been a been prioritized but I used what fited the most for me. In th api.py file no route was created to delete or update a Comment object. These routes could have been done but the lack of time made that it was not implemented.
 
 # How to start the app
 
@@ -26,6 +26,15 @@ python ./api.py
 In the second command prompt, you nee to be in my-app folder and enter npm start. The app should open right after this action.
 
 It should have need only one command line to open the app but due to the lack of time this feature hasn't been developped.
+
+# Bootstrap
+
+The css file have been downloaded from bootswatch here's the link below:
+
+https://bootswatch.com/lux/
+
+What is below this line was added when I created the react application.
+-------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
 
